@@ -14,4 +14,3 @@ experimental=False
 deprecated=False
 plugin_dependencies=Qgis2threejs==2.10.2
 changelog=0.2.0: Add a toolbar icon and N/E axis labels to decimal coordinates.
-
