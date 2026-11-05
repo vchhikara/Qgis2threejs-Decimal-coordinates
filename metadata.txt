@@ -1,0 +1,17 @@
+[general]
+name=Qgis2threejs Decimal Coordinates
+description=Show Qgis2threejs geographic query coordinates in decimal degrees.
+version=0.2.0
+qgisMinimumVersion=3.34
+qgisMaximumVersion=3.99
+author=Vipul Chhikara
+email=vipul.chhikara@gmail.com
+about=Displays latitude and longitude in the Qgis2threejs query result to six decimal places. Requires Qgis2threejs 2.10.2 and its Latitude and longitude coordinate display setting. The plugin also supports newly generated HTML exports. Author: Vipul Chhikara, India.
+category=Web
+tags=3d,coordinates,latitude,longitude,decimal degrees,qgis2threejs
+icon=icon.png
+experimental=False
+deprecated=False
+plugin_dependencies=Qgis2threejs==2.10.2
+changelog=0.2.0: Add a toolbar icon and N/E axis labels to decimal coordinates.
+
