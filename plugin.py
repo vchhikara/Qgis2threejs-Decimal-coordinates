@@ -32,7 +32,7 @@ class DecimalDegreesPlugin:
             self.javascript = file.read()
 
     def log(self, message, warning=False):
-        QgsMessageLog.logMessage(message, NAME, Qgis.Warning if warning else Qgis.Info)
+        QgsMessageLog.logMessage(message, NAME, Qgis.MessageLevel.Warning if warning else Qgis.MessageLevel.Info)
 
     def warn_once(self, message):
         if message not in self.warned:
