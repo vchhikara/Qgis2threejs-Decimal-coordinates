@@ -1,7 +1,7 @@
 [general]
 name=Qgis2threejs Decimal Coordinates
 description=Read Qgis2threejs query coordinates as plain decimal latitude and longitude.
-version=0.2.1
+version=0.2.2
 qgisMinimumVersion=3.34
 qgisMaximumVersion=3.99
 author=Vipul Chhikara
@@ -16,5 +16,6 @@ icon=icon.png
 experimental=False
 deprecated=False
 plugin_dependencies=Qgis2threejs==2.10.2
-changelog=0.2.1: Add repository links and scoped Qt 6 enum names.
+changelog=0.2.2: Add the new icon with transparent corners.
+    0.2.1: Add repository links and scoped Qt 6 enum names.
     0.2.0: Add a toolbar icon and N/E axis labels to decimal coordinates.

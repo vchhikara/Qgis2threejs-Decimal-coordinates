@@ -3,7 +3,7 @@ import argparse, os, zipfile
 
 PLUGIN_FOLDER = 'Qgis2threejs_Decimal_Coordinates'
 INCLUDE = ['__init__.py', 'plugin.py', 'export_support.py', 'decimal_degrees.js',
-           'metadata.txt', 'icon.png', 'LICENSE', 'README.md']
+           'metadata.txt', 'icon.png', 'LICENSE']
 
 def main():
     ap = argparse.ArgumentParser()
