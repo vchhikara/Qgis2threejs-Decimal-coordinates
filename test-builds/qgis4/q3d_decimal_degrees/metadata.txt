@@ -1,0 +1,24 @@
+[general]
+name=Qgis2threejs Decimal Coordinates
+description=Read Qgis2threejs query coordinates as plain decimal latitude and longitude.
+version=0.2.4
+qgisMinimumVersion=4.0
+qgisMaximumVersion=4.99
+author=Vipul Chhikara
+email=vipul.chhikara@gmail.com
+about=Decimal query coordinates, viewer heading and north arrows. Requires Qgis2threejs 2.10.2 or 3.0 through 3.3. Author: Vipul Chhikara, India.
+category=Web
+homepage=https://github.com/vchhikara/Qgis2threejs-Decimal-coordinates
+tracker=https://github.com/vchhikara/Qgis2threejs-Decimal-coordinates/issues
+repository=https://github.com/vchhikara/Qgis2threejs-Decimal-coordinates
+tags=3d,coordinates,latitude,longitude,decimal degrees,qgis2threejs
+icon=icon.png
+experimental=False
+deprecated=False
+plugin_dependencies=Qgis2threejs>=2.10.2
+changelog=Add viewer coordinate checkbox, heading, north arrows and welcome window.
+    0.2.2: Add icon with transparent corners.
+    0.2.1: Add repository links and scoped Qt 6 enum names.
+    0.2.0: Add a toolbar icon and N/E axis labels to decimal coordinates.
+
+supportsQt6=True
